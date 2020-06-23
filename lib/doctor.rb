@@ -12,3 +12,6 @@ end
 def appointments 
 
 end
+
+def new_appointment(date,patient)
+  appointment(self,date,patient)
