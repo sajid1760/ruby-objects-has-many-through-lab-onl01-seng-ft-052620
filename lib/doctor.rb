@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def appointments 
-
+  Appointments.all.select { |appointment| appointment.doctor == self }
 end
 
 def new_appointment(date,patient)
@@ -18,7 +18,7 @@ def new_appointment(date,patient)
 end 
 
 def patients 
-  
+  self.appointments.map{ |appointment| appointment.patient }.uniq
 end
 
 end
