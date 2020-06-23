@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def self.all
-  @all 
+  @@all 
 end
 
 def appointments 
@@ -27,5 +27,3 @@ end
 
 end
 
-doctor_smith = Doctor.new('John Smith')
-puts Doctor.all 
