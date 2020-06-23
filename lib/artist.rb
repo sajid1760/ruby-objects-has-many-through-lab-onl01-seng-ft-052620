@@ -22,7 +22,7 @@ def new_song(name, genre)
 end
 
 def genres
-  retgenres = self.songs.all.map { |song| song.genre }
+  retgenres = self.songs.map { |song| song.genre }
   retgenres = retgenre.uniq
 end
 
