@@ -18,7 +18,7 @@ def songs
 end 
 
 def artists
-  Artist.all.select 
+  Song.all.select 
 
 end
  
