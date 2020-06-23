@@ -26,3 +26,6 @@ def patients
 end
 
 end
+
+doctor_smith = Doctor.new('John Smith')
+puts Doctor.all 
