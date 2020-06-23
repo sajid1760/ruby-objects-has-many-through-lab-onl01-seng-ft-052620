@@ -18,7 +18,8 @@ def songs
 end 
 
 def artists
-  Song.all.select 
+  self.songs.map { |song| song.artist }
+end
 
 end
  
