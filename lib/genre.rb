@@ -1,6 +1,6 @@
 class Genre 
 
-attr_accessor  :name
+attr_accessor  :name, :genre, :artist
 
 @@all = []
 
@@ -13,8 +13,8 @@ def self.all
   @@all << self 
 end 
 
-def artists 
-
+def genre 
+  
 end 
 
 end
