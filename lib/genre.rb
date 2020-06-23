@@ -17,6 +17,10 @@ def self.all
   @@all << self 
 end 
 
+def artists 
+
+end 
+
 end
  
 
