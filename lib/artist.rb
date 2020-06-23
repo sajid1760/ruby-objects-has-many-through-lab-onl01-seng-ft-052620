@@ -22,7 +22,8 @@ def new_song(name, genre)
 end
 
 def genres
-  Genre.all.select { |genre| genre.artist == self}
+  retgenres = self.songs.all.map { |song| song.genre}
+  retgenres = retgenre.uniq
 end
 
 end 
