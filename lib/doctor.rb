@@ -9,3 +9,6 @@ def initialize(name)
   @@all << self 
 end
 
+def appointments 
+
+end
